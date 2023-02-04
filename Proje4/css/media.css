@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    header .logo{
+        font-size: .7em;
+    }
+    .avatar{
+        height: 75vh;
+    }
+    header nav ul li a{
+        font-size: .7rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .avatar img{
+        width: 50vw;
+        margin-top: -1rem;
+    }
+    .avatar h1{
+        font-size: 2.3rem;
+    }
+    .avatar h3{
+        font-size: 1rem;
+    }
+    .portfolio .row .col{
+        width: 100%;
+        display: block;
+    }
+    .abouth h1{
+        font-size: 2em;
+    }
+    .abouth .lines > .left_line ,  .abouth .lines > .right_line{
+        width: 10vw;
+    }
+    .contact form > .btn-send{
+        width: 100%;
+        font-size: 1.3em;
+    }
+    footer{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    h4{
+        font-size: 1.3em;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .location , .social , .info{
+        margin-bottom: 2rem;
+    }
+}
